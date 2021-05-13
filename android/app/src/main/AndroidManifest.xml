@@ -1,5 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="newgo.estudo.flutter_conversor_moeda">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
    <application
         android:label="flutter_conversor_moeda"
         android:icon="@mipmap/ic_launcher">
